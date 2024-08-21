@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Text</title>
+    <script>
+        function uploadBlobFromText() {
+            // Get the text value from the input
+            var textValue = document.getElementById('text').value;
+
+            // Simulate an upload process (replace this with actual upload logic)
+            console.log('Uploading:', textValue);
+
+            // Example of showing an alert with the uploaded text
+            alert('Uploaded text: ' + textValue);
+        }
+    </script>
+</head>
+<body>
+    <label for="text">Enter text:</label>
+    <input type="text" id="text" name="text" value="Hello World!" />
+    <button id="upload-button" onclick="uploadBlobFromText()">Upload</button>
+</body>
+</html>
+
